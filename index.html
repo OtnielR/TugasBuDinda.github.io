@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table dan List</title>
+    <link rel="icon" type="image/png" href="./assets/logo-smkn-6.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='notification-container'>
+        <div class='notification'>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-content navbar-logo-container">
+                <img src="/assets/logo-smkn-6.png" class="navbar-logo">
+                <div class="navbar-logo-divider"></div>
+                <img src="/assets/logo-rpl.png" class="navbar-logo">
+            </div>
+            <div class="navbar-content navbar-navigation">
+                <a href="#">Beranda</a>
+                <a href="#table-section">Table</a>
+                <a href="#list-section">List</a>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-title">
+            <h1>Mengenal Tabel dan List dalam HTML: Dasar Strukturisasi Data Web</h1>
+
+            <div class="header-description-container">
+                <div class="header-description">
+                    <img src="./assets/person-logo.svg" class="header-description-logo">
+                    <p>by Dennis Otniel Rorimpandey</p>
+                </div>
+                <div class="header-description">
+                    <img src="./assets/calender-logo.svg" class="header-description-logo">
+                    <p>Saturday 27 July, 2025</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-picture">
+            <img src="./assets/html-css-js-logo.png">
+        </div>
+    </header>
+    <section class="content">
+        <section id="table-section" class="reveal hidden content-container">
+            <div class="table-container">
+                <h1>Table / Jadwal Pelajaran</h1>
+                <table>
+                    <colgroup>
+                        <col style="width: 20%;">
+                        <col style="width: 20%;">
+                        <col style="width: 40%;">
+                        <col style="width: 20%;">
+                    </colgroup>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam</th>
+                        <th>Mata Pelajaran</th>
+                        <th>Guru</th>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>07.50 - 09.10</td>
+                        <td>PJOK</td>
+                        <td>Pak Wahyu</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09.10 - 09.50</td>
+                        <td>Basis Data</td>
+                        <td>Bu Shinta</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09.50 - 10.05</td>
+                        <td>Istirahat</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>10.05 - 11.25</td>
+                        <td>Basis Data</td>
+                        <td>Bu Shinta</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>11.25 - 12.05</td>
+                        <td>Kreativ & Inovasi & KWU</td>
+                        <td>Pak Ridwan</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>12.05 - 12.40</td>
+                        <td>Istirahat</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>12.40 - 15.20</td>
+                        <td>Kreativ & Inovasi & KWU</td>
+                        <td>Pak Ridwan</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-description">
+                <p>Tabel ini menampilkan jadwal pelajaran hari Senin, lengkap dengan jam, mata pelajaran, dan nama guru.
+                    Pelajaran dimulai pukul 07.50 dan berakhir pada 15.20, mencakup PJOK, Basis Data oleh Bu Shinta,
+                    serta Kreativ & Inovasi & KWU oleh Pak Ridwan. Tabel ini memudahkan dalam melihat susunan kegiatan
+                    belajar mengajar secara teratur.</p>
+            </div>
+        </section>
+        <section id="table-section" class="reveal hidden content-container">
+            <div class="table-container">
+                <h1>Table / Anggota Kelompok</h1>
+                <table>
+                    <colgroup>
+                        <col style="width: 10%;">
+                        <col style="width: 50%;">
+                        <col style="width: 40%;">
+                    </colgroup>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>No. Telp</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Ahmad Giri Saptanu</td>
+                        <td>+62 813-8754-6583</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dennis Otniel Rorimpandey</td>
+                        <td>+62 851-7988-6159</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kanaya Raisa Putri</td>
+                        <td>+62 814-0174-5250</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Naufal Haidar Fathan</td>
+                        <td>+62 877-7133-6647</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Varen Valerian Santosa</td>
+                        <td>+62 821-1367-9638 </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content-description">
+                <p>Tabel di atas berisi daftar lima anggota kelompok beserta nomor telepon masing-masing. Setiap anggota
+                    ditampilkan secara berurutan berdasarkan nomor, mulai dari Ahmad Giri Saptanu hingga Varen Valerian
+                    Santosa. Informasi ini berguna untuk mengenali anggota dan mempermudah komunikasi antar anggota
+                    kelompok.</p>
+            </div>
+        </section>
+        <section id="list-section" class="reveal hidden content-container">
+            <div class="list-container">
+                <h1>Ordered List / Pancasila</h1>
+
+                <div>
+                    <ol>
+                        <li>
+                            Ketuhanan Yang Maha Esa
+                        </li>
+                        <li>
+                            Kemanusian Yang Adil dan Beradab
+                        </li>
+                        <li>
+                            Persatuan Indonesia
+                        </li>
+                        <li>
+                            Kerakyatan Yang dipimpin oleh Hikmat Kebijaksanaan Dalam Permusyawaratan/Perwakilan
+                        </li>
+                        <li>
+                            Keadilan Sosial Bagi Seluruh Rakyat Indonesia
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="content-description">
+                <p>Kode tersebut adalah elemen HTML yang digunakan untuk menampilkan daftar butir-butir Pancasila dalam
+                    bentuk daftar tidak berurutan (ordered list), di mana setiap sila ditampilkan sebagai item dalam
+                    daftar menggunakan tag (li) </p>
+            </div>
+        </section>
+        <section class="reveal hidden content-container">
+            <div class="list-container">
+                <h1>Unordered List / Hobi</h1>
+
+                <div>
+                    <ul>
+                        <li>
+                            Coding
+                        </li>
+                        <li>
+                            Main Game
+                        </li>
+                        <li>
+                            Nonton Film
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-description">
+                <p>Kode tersebut adalah elemen HTML yang digunakan untuk menampilkan daftar butir-butir Pancasila dalam
+                    bentuk daftar tidak berurutan (unordered list), di mana setiap sila ditampilkan sebagai item dalam
+                    daftar menggunakan tag (li)</p>
+            </div>
+        </section>
+        <section class="reveal hidden content-container">
+            <div class="list-container">
+                <h1>Description List / Makanan </h1>
+
+                <div>
+                    <dl>
+                        <dt>Soto</dt>
+                        <dd>Soto adalah makanan khas Indonesia berupa sup berkuah bening atau santan yang disajikan
+                            dengan isian seperti daging ayam atau sapi, bihun atau soun, dan sayuran seperti kol dan
+                            daun bawang</dd>
+                        <dt>Rendang</dt>
+                        <dd>Rendang adalah makanan khas Minangkabau (Sumatera Barat) yang terbuat dari daging sapi
+                            dimasak dengan santan dan campuran rempah-rempah khas seperti lengkuas, serai, bawang,
+                            cabai, dan kunyit.</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="content-description">
+                <p>Soto dan rendang adalah dua makanan khas Indonesia yang populer dan memiliki cita rasa yang khas.
+                    Soto merupakan sup tradisional berkuah bening atau santan, disajikan dengan isian seperti daging
+                    ayam atau sapi, bihun, serta sayuran seperti kol dan daun bawang. Sementara itu, rendang adalah
+                    masakan khas Minangkabau (Sumatera Barat) yang terbuat dari daging sapi dimasak dalam santan dan
+                    rempah-rempah seperti lengkuas, serai, bawang, cabai, dan kunyit hingga kuahnya mengering dan
+                    bumbunya meresap sempurna ke dalam daging.</p>
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+        <div class="navbar-content navbar-navigation">
+            <a href="#">Contact</a>
+            <a href="#table-section">About Us</a>
+        </div>
+        <p>© 2025 Dennis Otniel Rorimpandey. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
